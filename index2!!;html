@@ -1,0 +1,37 @@
+lement.style {
+}
+.mw-body p {
+    padding-bottom: 0.5em;
+    margin: 0.5em 0 0 0;
+}
+p {
+    margin: 0.4em 0 0.5em 0;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.vector-body {
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-medium);
+}
+.mw-body, .parsoid-body {
+    direction: ltr;
+}
+html, body {
+    font-family: sans-serif;
+}
+body {
+    background-color: #f8f9fa;
+    color: #202122;
+}
+:root {
+    --font-size-medium: 0.875rem;
+    --line-height-medium: 1.5714285;
+    --background-color-base: #fff;
+}
